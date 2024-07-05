@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@layer components {
+  .text-gradient {
+    @apply bg-gradient-to-r from-lime-600 via-green-500 to-slate-400 inline-block text-transparent bg-clip-text;
+  }
+}
