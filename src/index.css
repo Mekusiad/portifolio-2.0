@@ -2,14 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Righteous", sans-serif;
 }
 
 @layer components {
   .text-gradient {
-    @apply bg-gradient-to-r from-lime-600 via-green-500 to-slate-400 inline-block text-transparent bg-clip-text;
+    @apply bg-gradient-to-r from-lime-900 via-lime-500 to-lime-950 text-transparent inline-block bg-clip-text;
+  }
+
+  .shadow-hover {
+    @apply hover:shadow-xl hover:shadow-lime-600;
+  }
+
+  .hover-color {
+    @apply hover:text-lime-500 transition-all delay-75;
   }
 }

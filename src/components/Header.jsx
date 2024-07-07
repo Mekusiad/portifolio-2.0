@@ -1,13 +1,15 @@
 function Header() {
+  // const navigator = useNavigate();
+
   return (
-    <div className="flex justify-around p-4 text-xl absolute top-0 w-full">
-      <a href="#home" className="hover:scale-105 ">
+    <div className="flex justify-around  bg-zinc-900 bg-opacity-25 md:justify-start md:gap-10 p-4 text-xl absolute top-0 w-full backdrop-blur-sm z-50">
+      <a href="/" className="hover:scale-105 ">
         Home
       </a>
-      <a href="#about" className="hover:scale-105">
+      <a href="/about" className="hover:scale-105">
         About
       </a>
-      <a href="#projects" className="hover:scale-105">
+      <a href="/projects" className="hover:scale-105">
         Projects
       </a>
     </div>
