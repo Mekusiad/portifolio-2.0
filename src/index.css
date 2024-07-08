@@ -21,6 +21,6 @@
   }
 
   .hover-color {
-    @apply hover:text-lime-500 transition-all delay-75;
+    @apply hover:text-lime-500 hover:-translate-y-1 transition-all delay-75;
   }
 }

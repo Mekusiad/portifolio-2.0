@@ -12,11 +12,11 @@ function Home() {
           Mauro
         </p>
         <p className="text-5xl md:text-7xl -tracking-[-.4em] text-gradient font-bold text-end">
-          Daisuke
+          Tahara
         </p>
       </section>
       <section className="w-full p-8 rounded-sm bg-opacity-60 text-end md:text-center ">
-        <p className="text-md md:text-2xl">
+        <p className="text-md md:text-2xl  text-lime-500">
           Cursando o 3° período em Análise e Desenvolvimento de Sistemas e em
           busca de seu primeiro emprego no ramo da programação.
         </p>
