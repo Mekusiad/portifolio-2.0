@@ -13,7 +13,7 @@
 
 @layer components {
   .text-gradient {
-    @apply bg-gradient-to-r from-lime-900 via-lime-500 to-lime-950 text-transparent inline-block bg-clip-text;
+    @apply bg-gradient-to-r from-slate-400 via-slate-500 to-white text-transparent inline-block bg-clip-text;
   }
 
   .shadow-hover {

@@ -8,7 +8,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className=" w-sreen h-screen bg-zinc-900 text-white overflow-y-scroll scroll-smooth">
+    <div className=" w-sreen h-screen bg-[url('/assets/bg.jpg')] bg-center bg-contain md:bg-cover text-white overflow-y-scroll scroll-smooth ">
       <Header />
       <Router>
         <Routes>

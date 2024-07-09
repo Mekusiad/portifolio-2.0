@@ -3,20 +3,20 @@ import { MdOutlineEmail } from "react-icons/md";
 
 function Home() {
   return (
-    <div className="flex flex-col justify-evenly items-center h-full">
+    <div className="flex flex-col justify-evenly items-center h-full md:pl-10">
       <section
-        className="flex flex-col gap-2
+        className="flex flex-col gap-2 md:text-start w-full
       "
       >
-        <p className="text-7xl md:text-9xl -tracking-[-.4em] text-gradient font-bold">
+        <p className="text-7xl md:text-9xl -tracking-[-.4em] text-gradient font-bold text-end sm:text-center sm:text-[7rem] md:text-start md:text-[10rem] transition-all delay-75">
           Mauro
         </p>
-        <p className="text-5xl md:text-7xl -tracking-[-.4em] text-gradient font-bold text-end">
+        <p className="text-5xl md:text-7xl -tracking-[-.4em] text-gradient font-bold text-end sm:text-center  sm:text-[4rem] md:text-start md:text-[7rem] transition-all delay-75">
           Tahara
         </p>
       </section>
-      <section className="w-full p-8 rounded-sm bg-opacity-60 text-end md:text-center ">
-        <p className="text-md md:text-2xl  text-lime-500">
+      <section className="w-full p-8 rounded-sm bg-opacity-60 text-end  sm:text-center md:text-start transition-all delay-75">
+        <p className="text-md md:text-2xl">
           Cursando o 3° período em Análise e Desenvolvimento de Sistemas e em
           busca de seu primeiro emprego no ramo da programação.
         </p>
