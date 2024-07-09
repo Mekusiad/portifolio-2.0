@@ -3,7 +3,7 @@ import { MdOutlineEmail } from "react-icons/md";
 
 function Home() {
   return (
-    <div className="flex flex-col justify-evenly items-center h-full md:pl-10">
+    <div className="flex flex-col justify-evenly items-center h-full md:pl-10 roll-in">
       <section
         className="flex flex-col gap-2 md:text-start w-full
       "

@@ -10,7 +10,8 @@ import { FaJava, FaGitAlt, FaGithub } from "react-icons/fa";
 
 function About() {
   return (
-    <div className="flex flex-col gap-5 justify-center items-start h-full p-4 sm:text-lg md:text-2xl md:justify-start md:pt-20">
+    <div className="flex flex-col gap-5 justify-center items-start h-full p-4 sm:text-lg md:text-2xl md:justify-start md:pt-20 roll-in">
+      {" "}
       <p> Me chamo Mauro Daisuke,</p>
       <p>
         Atualmente trabalho em uma concessionária de energia, porém estou
@@ -25,8 +26,8 @@ function About() {
         procuro e elaboro alguns projetos para adquirir conhecimento e
         experiência no asssunto.
       </p>
-      <div className="w-full text-st">
-        <p className=" border-t border-white py-5">SKills</p>
+      <div className="w-full text-st animate-pulse">
+        <p className=" border-t border-white py-10">SKills</p>
         <div className="grid grid-cols-3 w-full gap-10 md:grid-cols-4 xl:grid-cols-10">
           <div className="flex flex-col justify-center items-center gap-2 hover-color">
             <SiJavascript size={36} />

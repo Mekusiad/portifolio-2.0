@@ -2,7 +2,7 @@ import { FaInfoCircle, FaGithub, FaEye } from "react-icons/fa";
 
 function Projects() {
   return (
-    <div className="flex flex-col justify-evenly items-center h-full ">
+    <div className="flex flex-col justify-evenly items-center h-full roll-in">
       <div className="grid grid-cols-1 gap-10 px-8 py-20 sm:grid-cols-2 xl:grid-cols-3">
         <div className="group rounded-md w-full h-fit text-center relative shadow-hover overflow-hidden">
           <img

@@ -2,7 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@font-face {
+  font-family: "Righteous";
+  src: url("https://fonts.googleapis.com/css2?family=Righteous&display=swap")
+    format("ttf");
+}
 
 * {
   margin: 0;
@@ -22,5 +26,22 @@
 
   .hover-color {
     @apply hover:text-lime-500 hover:-translate-y-1 transition-all delay-75;
+  }
+}
+
+@layer utilities {
+  .roll-in {
+    animation: roll-in 2s ease-in-out;
+  }
+}
+
+@keyframes roll-in {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%) rotate(-120deg);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px) rotate(0deg);
   }
 }
